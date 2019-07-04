@@ -15,7 +15,8 @@
     "d3-scale": "^2.1.2",
     "d3-shape": "^1.2.2",
     "lodash": "^4.17.4",
-    "recompose": "^0.26.0"
+    "recompose": "^0.26.0",
+    "snyk": "^1.189.0"
   },
   "peerDependencies": {
     "prop-types": "^15.5.10",
@@ -23,5 +24,10 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
