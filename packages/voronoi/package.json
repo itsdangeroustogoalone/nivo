@@ -11,7 +11,8 @@
   "dependencies": {
     "@nivo/core": "^0.48.0",
     "d3-voronoi": "^1.1.4",
-    "recompose": "^0.26.0"
+    "recompose": "^0.26.0",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "prop-types": "^15.5.10",
@@ -19,5 +20,10 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
