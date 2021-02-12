@@ -5632,9 +5632,10 @@ react-icons@^2.2.5:
   dependencies:
     react-icon-base "2.1.0"
 
-react-input-autosize@^2.0.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-2.2.1.tgz#ec428fa15b1592994fb5f9aa15bb1eb6baf420f8"
+react-input-autosize@^2.1.0:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-2.2.2.tgz#fcaa7020568ec206bc04be36f4eb68e647c4d8c2"
+  integrity sha512-jQJgYCA3S0j+cuOwzuCd1OjmBmnZLdqQdiLKRYrsMMzbjUrVDS5RvJUDwJqA7sKuksDuzFtm6hZGKFu7Mjk5aw==
   dependencies:
     prop-types "^15.5.8"
 
@@ -5727,13 +5728,14 @@ react-scripts@1.0.14:
   optionalDependencies:
     fsevents "1.1.2"
 
-react-select@1.0.0-rc.10:
-  version "1.0.0-rc.10"
-  resolved "https://registry.yarnpkg.com/react-select/-/react-select-1.0.0-rc.10.tgz#f137346250f9255c979fbfa21860899928772350"
+react-select@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-select/-/react-select-1.0.0.tgz#7d3b78ad104db7a747a427375fd846c0f4a3cfe1"
+  integrity sha512-dgmCJIZO+cKOhIau5ZPcz8wWo/saBrb7bv7+/iejbAZSRi7bOvL4/d1vOr6VpXRiycz2BA4V2G+cpR5GB82SFw==
   dependencies:
     classnames "^2.2.4"
     prop-types "^15.5.8"
-    react-input-autosize "^2.0.1"
+    react-input-autosize "^2.1.0"
 
 react-side-effect@^1.1.0:
   version "1.1.3"
