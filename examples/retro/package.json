@@ -12,14 +12,18 @@
     "@nivo/pie": "^0.33.0-4",
     "@nivo/stream": "^0.33.0-4",
     "@nivo/treemap": "^0.32.0",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-scripts": "1.0.13"
+    "react": "16.5.0",
+    "react-dom": "16.5.0",
+    "react-scripts": "5.0.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
