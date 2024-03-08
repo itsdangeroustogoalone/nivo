@@ -13,7 +13,7 @@
         "@nivo/calendar": "0.48.0",
         "@nivo/chord": "0.48.0",
         "@nivo/circle-packing": "0.48.0",
-        "@nivo/core": "0.48.0",
+        "@nivo/core": "0.85.1",
         "@nivo/generators": "0.48.0",
         "@nivo/heatmap": "0.48.0",
         "@nivo/legends": "0.48.0",
